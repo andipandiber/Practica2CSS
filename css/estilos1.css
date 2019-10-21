@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai|Merriweather+Sans|Noto+Sans+KR&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    border: 1px solid green;
+    background: #cfd8dc;
+}
+
+.titulo{
+    font-size: 20px;
+    font-family: 'Baloo Bhai', cursive;
+    background: #455a64;
+    color: #263226;
+    border: 2px solid black;
+}
+
+.navega{
+    font-size: 25px;
+    font-family: 'Merriweather Sans', sans-serif;
+    background: #455a64;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+
+}
