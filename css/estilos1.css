@@ -1,28 +1,51 @@
-@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai|Merriweather+Sans|Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abel|Indie+Flower&display=swap');
+/*Estilos Generales*/
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    border: 1px solid green;
     background: #cfd8dc;
 }
-
+/**estilos para el Titulo*/
 .titulo{
-    font-size: 20px;
-    font-family: 'Baloo Bhai', cursive;
-    background: #455a64;
-    color: #263226;
-    border: 2px solid black;
+    font-family: 'Indie Flower', cursive;
+	font-size: 80px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.sectio{
+    font-family: 'Abel', sans-serif;
+    font-size: 35px;;
+    text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+}
+
+
+#boton{
+    border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: #333;
+	background: #fff;
+	margin-bottom: 50px;
+	box-shadow: 0 3px 20px 0 #0000003b;
 }
 
 .navega{
-    font-size: 25px;
-    font-family: 'Merriweather Sans', sans-serif;
-    background: #455a64;
-
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 100;
-
+    display: none;
 }
+
+
+
+
+
+
+ 
