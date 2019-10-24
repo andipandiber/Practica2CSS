@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+/**Estilos Titulo 2 Columnas*/
+.titulo2{
+    font-family: 'Indie Flower', cursive;
+	font-size: 80px;
+    margin-top: 30px;
+    text-align: center;
+}
+/**Boton Volver*/
+.volver{
+    font-family: 'Abel', sans-serif;
+    font-size: 30px;
+    border: none;
+    text-align: center;
+    padding: 5px;
+    margin: 0px 650px 30px 650px;
+}
+    .volver ul{
+        background: blanchedalmond;
+    }
+    .volver ul a{
+        color: black;
+        background: blanchedalmond;
+    }
+/**Estilos Navegacion 2 Columnas*/
+.navega2{
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 5px;
+    float: left;
+    background: #3c3d47;
+    width: 15%;
+}
+    .navega2 ul{
+        background: #3c3d47;
+    }
+    .navega2 li{
+        position: relative;
+        display: block;
+        padding: .4em .4em .4em .8em;
+        margin: .5em 0 .5em 2.5em;
+        background: #3c3d47;
+        color: #e6f8f9;
+    }
+
+    .navega2 a{
+        background: #3c3d47;
+        color:#e6f8f9;
+    }
+
+.section2{
+    border: 1px solid black;
+    width: 80%;
+    padding: 5px;
+    margin: 5px;
+    float: left;
+}
+
+    .section2 article{
+        font-family: 'Poppins', sans-serif;
+    }
+
+.pie2{
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    clear: both;
+}
