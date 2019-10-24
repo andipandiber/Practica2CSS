@@ -18,36 +18,33 @@
             <p>Este Blog Aficionado acerca de la Comunidad de Software Libre</p>
         </article>
         <!--Boton para Ingresar al Menu de Navegacion-->
-        <button id="boton">Leer Mas</button>
+        <button id="boton" role="link" onclick="document.getElementById('navega').style.visibility='visible'"
+        ondblclick="document.getElementById('navega').style.visibility='hidden'">Menu de Navegacion</button>
     </section>
     <!--Cabecera de Navegacion-->
-    <div class="navega">
+    <div id="navega" style="visibility: hidden;" >
         <nav>
             <ul>
                 <a href="html/Historia/historia.html">Historia</a>
                 <a href="html/Noticias/noticias.html">Noticias</a>
                 <a href="html/LinWin/lin.html">Linux vs Windows</a>
-               <a href="html/Comunidades/comunidades.html">Comunidades</a>
+                <a href="html/Comunidades/comunidades.html">Comunidades</a>
+                <a href="">Proyectos</a>
             </ul>
         </nav>
     </div>
-    
-    
-    <aside>
-
-    </aside>
-        <header>
-            
-        </header>
-    <aside>
-        <p>Aside Parrafo</p>
-    </aside>
-
-
-
-
-    <footer>
-        <p>Andres Bermeo &copy; Derechos Reservados</p>
+    <!--Pie de Pagina de la Pagina Principal-->
+    <footer class="pie">
+        <p>
+            Contacto <br>
+            Andres Bermeo &nbsp; <br> 
+            <a href="https://www.ups.edu.ec">Universidad Politecnica Salesiana</a> <br>
+            &nbsp; <a href="mail:andipandi467@gmail.com">Correo</a> <br>
+            &nbsp;<a href="https://github.com/andipandiber">Github</a> <br>
+            &nbsp;<a href="tel:+593960851986">Click para llamar</a> <br>
+            &copy; 2019 Derechos Reservados
+        </p>
     </footer>
+    <img src="images/tuxIcono.png" alt="Tux" width="80" height="80" class="imagen">
 </body>
 </html>
