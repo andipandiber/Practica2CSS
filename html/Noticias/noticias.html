@@ -21,20 +21,76 @@
     <nav class="navega3">
         <ul>
             <li><a href="">Noticias Software Libre</a></li>
-            <li><a href="">Noticias Software Libre</a></li>
-            <li><a href="">Noticias Proyectos</a></li>
+            <li><a href="#tuto">Tutorial VIM</a></li>
+            <li><a href="#proyect">Noticias Proyectos</a></li>
         </ul>
     </nav>
 
     <section class="section3">
         <article>
-            <p>Desarrollo Contenidos </p>
+            <header>
+                <h2>Software Libre</h2>
+            </header>
+            <p>
+                    Ni Windows ni macOS, software libre. Así llamamos a "todo programa informático cuyo código fuente puede ser estudiado, modificado, y utilizado libremente con cualquier fin y redistribuido sin o con cambios y/o mejoras". Sus defensores colocan la libertad del usuario informático como propósito fundamental.
+
+                    Durante años ha parecido el sueño romántico y hippy de unos cuantos informáticos, pero el software libre no es ninguna broma. La última prueba de que tiene ya no futuro sino presente llega de Corea del Sur, un país a la vanguardia de la tecnología en muchos aspectos. Allí, el Gobierno ha anunciado que cambia de Windows a Linux.
+                    
+                    Cuenta The Korea Herald que Corea del Sur anuncia el cambio el sistema operativo de sus ordenadores de Windows a Linux, debido a los costes que le supone mantener Windows. Y lo hace ahora que el soporte oficial de Microsoft de Windows 7 está próximo a acabar, en enero de 2020.
+                    
+                    La decisión la ha comunicado el Ministerio del Interior y Seguridad de país, que se ha encargado en los últimos meses de probar el sistema operativo y de comprobar que no hay ningún problema de seguridad. Queda ahora comprobar que Linux funcione en los dispositivos de redes privadas sin riesgos y que sea compatible con las páginas web creadas.
+                    
+                    El Gobierno coreano calcula que se gastará 655 millones de dólares en el paso a Linux y la compra de nuevos ordenadores. Pero es más lo que se van a ahorrar al dejar atrás el sistema operativo de Microsoft. El soporte oficial de Windows 7 finaliza en enero de 2020 y a Corea le tocaba comprar nuevas licencias.
+                    
+                    El Estado coreano quiere no solo ahorrar dinero sino, según su Ministerio de Interior, evitar la dependencia de un único sistema operativo. Si el paso a Linux termina siendo un hecho, Corea del Sur se convertirá en el gobierno más grande del mundo que se pasa a este software libre.
+            </p>
+        </article>
+
+        <article>
+            <header id="tuto">
+                <h2>Tutorial VIM</h2>
+            </header>
+            <p>
+                    La guía de esta semana va a ser más teoría que otra cosa, pues no hay mucho que mostrar. Eso sí, os recomiendo que probéis con vuestro Vim lo que vamos a ir mirando en breve. Lo primero que tenemos que aclarar es que en Vim tendremos varias opciones para el autocompletado y que este se realiza siempre en el modo insertar. Para activar las diferentes opciones de autocompletado tenemos los siguientes atajos de teclado (equivale a ):
+                    el autocompletado de Vim se activa mediante el atajo de teclado anterior o mediante, el primero seleccionará el siguiente resultado en una lista de palabras mientras que el segundo seleccionará el resultado anterior. Busca palabras en todos los archivos abiertos.
+                    sirve para buscar una lista de palabras en el buffer (el archivo que estamos editando).
+                    muestra autocompletado de archivos incluidos. Muchos lenguajes de programación permiten incluir archivos, este atajo sirve para buscar palabras en ellos.
+                    su función es buscar palabras en el archivo tags. Un archivo tags tiene un índice de funciones, clases u otro tipo de estructuras. Pero esto se merece un post más adelante para entenderlo.
+                    mira una lista de palabras en el diccionario. Así es, en Vim también podemos tener un corrector de palabras en español, pero esto lo discutiremos más a fondo en otro post.
+                    este atajo hace un autocompletado de líneas completas. Imaginad que estamos editando un archivo CSS y vamos a repetir ciertas propiedades, como por ejemplo el background. Podríamos usar bay nos rellenaría la línea completa, perfecto para ahorrarnos tiempo en escribirlo (imagen anterior).
+                    autocompletado para nombres de archivos o carpetas. En mi caso, encuentro tremendamente útil esta opción a la hora de escribir una localización. Por ejemplo /bin/b nos mostraría una lista con los archivos que empiezan por la letra b en el directorio /bin/.
+                    sirve para la omni-completion, sugerencias basadas en el código, como propiedades CSS que podemos utilizar. Hay varios lenguajes de programación soportados y mediante plugins podemos agregar más. Muy útil si no nos acordamos del nombre concreto de alguna propiedad.
+                    Como habéis podido leer, el autocompletado de Vim toma en cuenta diferentes contextos y solo nos muestra lo que necesitamos. Toma un tiempo recordar los comandos pero una vez aprendidos, nuestra productividad se disparará. Espero que os haya sido útil y volveremos con más la semana que viene. ¿Cómo lo lleváis hasta ahora?
+            </p>
+        </article>
+
+        <article>
+            <header id="proyect">
+                <h2>Proyectos Software Libre</h2> 
+            </header>
+            <p>
+                    El proyecto Debian es un grupo mundial de voluntarios que se esfuerzan por producir una distribución de sistema operativo que este compuesta enteramente de software libre. El producto principal del proyecto a la fecha es la distribución de software Debian GNU/Linux, la cual incluye a Linux como núcleo del sistema operativo, así como miles de aplicaciones pre-empaquetadas. Se soportan en mayor o menor medida distintos tipos de procesadores, incluyendo el procesador Intel i386 y superiores, y los procesadores Alpha, ARM, Intel IA-64, Motorola 68k, MIPS, PA-RISC, PowerPC, Sparc (y UltraSparc), IBM S/390 y Hitachi SuperH.
+                    Ian Murdock fundó oficialmente el proyecto Debian el 16 de agosto de 1993. Hasta ese momento, el concepto de una «distribución» de Linux era nuevo. Ian pretendió que Debian fuera una distribución realizada de forma abierta, siguiendo el espíritu de Linux y GNU (lea el manifiesto provisto como un apéndice a este documento para más detalles). La creación de Debian fue patrocinada por el proyecto GNU de la FSF durante un año (noviembre de 1994 a noviembre de 1995).
+
+Debian estaba pensada para ser desarrollada cuidadosa y conscientemente y ser mantenida y soportada con un cuidado similar. Lo que comenzó con un pequeño y grupo muy unido de hackers de software libre, fue creciendo gradualmente hasta convertirse en una gran comunidad de desarrolladores y usuarios bien organizada.
+
+Debian es la única distribución que está abierta a las contribuciones de cada desarrollador y usuario que deseen participar con su trabajo. Y es la única distribución relevante de Linux que no es una entidad comercial. Es el único gran proyecto con una constitución, contrato social, y documento de directrices que organizan el proyecto. Debian es también la única distribución que se «micro-empaqueta» y que utiliza una detallada información de las dependencias de cada paquete con respecto a otros para asegurar la consistencia del sistema cuando tiene lugar una actualización.
+
+Debian ha adoptado un gran conjunto de directrices y procedimientos para el empaquetamiento y la distribución de software para poder alcanzar y mantener altos estándares de calidad. Se producen herramientas, sistemas automáticos y documentación de cada uno de los aspectos claves de Debian de una forma abierta y visible para poder sostener estos estándares.
+            </p>
         </article>
     </section>
 
     <aside class="aside3">
         <section>
-            <article>Desarrollo Aside</article>
+            <article>
+                    <img src="../../images/linuxp.jpg" alt="" width="200" height="200">
+                    <p>Video Proyecto Debian</p>
+                    <iframe width="290" height="300" src="https://www.youtube.com/embed/krWf_TDOT6w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>Video Tutorial VIM</p>
+                    <iframe width="290" height="315" src="https://www.youtube.com/embed/iWo1cDGlNDI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="290" height="315" src="https://www.youtube.com/embed/hpWQNfei6kc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </article>
         </section>
     </aside>
 

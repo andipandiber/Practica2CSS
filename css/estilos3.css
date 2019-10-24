@@ -1,51 +1,114 @@
-
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 /**Boton Volver*/
 .volver{
-    border: 2px solid #0099CC;
+    border: 2px solid #95adbe;
     color: #0099CC;
     background: transparent;
     justify-content: center;
     border-radius: 6px;
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
-    margin: 5px 700px 5px 700px;
+    margin: 5px 600px 5px 600px;
 
 }
     .volver:hover{
-        background-color: #008CBA;
+        background-color: #95adbe;
         color: white;
     }
     .volver a{
-        color: black;
+        color: #204969;
         background:transparent;
     }
-
+/**Menu de Navegacion*/
 .navega3{
-    border: 1px solid black;
+    border: 1px solid #52616b;
+    background-color: #c9d6df;
+    border-radius: 20px;
+    width: 15%;
     float: left;
     margin: 5px;
-    padding: 5px;
+    padding: 30px;
+    list-style-type: none;
 }
+    .navega3 ul{
+        background: transparent;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
 
+    .navega3 li{
+        font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+        border-bottom: 1px solid #ccc;
+        background: transparent;
+    }
+        li:last-child{
+            border: none;
+        }
+
+    .navega3 a{
+        background: transparent;
+        color: #4e4e4e;
+        text-decoration: none;
+        color: #000;
+        display: block;
+        width: 200px;
+       
+        -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+        -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+        -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+        -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+        transition: font-size 0.3s ease, background-color 0.3s ease;
+    }
+
+    li a:hover{
+        font-size: 30px;
+        background: #f6f6f6;
+    }
+
+/**Estilo de Section*/
 .section3{
-    border: 1px solid black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    border: 1px solid#52616b;
+    border-radius: 10px;
     float: left;
+    width: 60%;
     margin: 5px;
-    padding: 5px;
+    padding: 15px;
+    background: oldlace;
 }
+    .section3 article{
+        background: transparent;
+        
+    }
+    .section3 header{
+        background: transparent;
+        margin:5px;
+    }
+    .section3 p{
+        background: transparent;
+    }
+
 
 .aside3{
-    border: 1px solid black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    border: 1px solid #52616b;
+    border-radius:10px ;
     float: left;
+    width: 20%;
     margin: 5px;
-    padding: 5px;
+    padding: 15px;
 }
 
+
+/**Estilos de Pie de Pagina*/
 .pie3{
     clear: both;
     font-family: 'Abel', sans-serif;
     font-size: 20px;
-    border: 1px solid black;
+    border: 1px solid #52616b;
     border-radius: 25px;
 	margin: 20px 200px 40px 200px;
 	display: flex;
